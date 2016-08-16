@@ -6,6 +6,80 @@ light blue: #1c5380
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family:'proxima-nova','Helvetica Neue',Arial,Helvetica,sans-serif*/
   font-size: 16px;
   margin: 0;
+  line-height: 150%;
+}
+
+.blue_bg {
+  background-color: #1c5380;
+  height: 250px;
+  position: relative;
+}
+
+.container{
+margin: -8.5em 0 0 0;
+position: relative;
+}
+
+.img-float{
+  float: left;
+}
+
+.container-right {
+  margin-left: auto;
+  margin-right: auto;
+  width: 480px;
+}
+
+.log_in_button{
+  vertical-align: middle;
+  display: inline-block;
+  float: right;
+  margin: 1.5em 0 0 0;
+  background-color: #3897f0;
+  padding: 0 1em;
+}
+
+.log_in_button img {
+  margin: 0.2em 1em 0.2em 0.5em;
+}
+
+.log_in {
+  margin: -5em 0 0 0;
+}
+
+.intro {
+  background-image: url("img/frame.png");
+}
+
+.em {
+  font-weight: bold;
+}
+
+.footer {
+  clear:both;;
+  display: inline-block;
+  margin: 0 auto;
+  text-transform: uppercase;
+  clear: both;
+  position: relative;
+}
+
+.bottom_nav {
+  display: inline-block;
+  color: #003569;
+}
+
+.nav_links_list {
+  margin: 0 3em;
+}
+
+.nav_links {
+  display: inline-block;
+}
+
+.copyright {
+  color: #999;
 }
