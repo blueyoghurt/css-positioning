@@ -19,7 +19,10 @@ body {
 }
 
 .container{
-margin: -8.5em 0 0 0;
+width: 1280px;
+margin-left: auto;
+margin-right; auto;
+margin-top: -8.5em;
 position: relative;
 }
 
@@ -30,7 +33,7 @@ position: relative;
 .container-right {
   margin-left: auto;
   margin-right: auto;
-  width: 480px;
+  width: 45%;
 }
 
 .log_in_button{
@@ -51,7 +54,9 @@ position: relative;
 }
 
 .intro {
-  background-image: url("img/frame.png");
+  background-image: url("../img/frame.png");
+  background-size: cover;
+  padding: 20px
 }
 
 .em {
@@ -59,12 +64,18 @@ position: relative;
 }
 
 .footer {
-  clear:both;;
-  display: inline-block;
+  /*display: inline-block;
   margin: 0 auto;
   text-transform: uppercase;
   clear: both;
-  position: relative;
+  position: relative;*/
+  /*position: absolute;
+  bottom: 0px;*/
+  clear: both;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  /*padding-left: */
 }
 
 .bottom_nav {
@@ -82,4 +93,8 @@ position: relative;
 
 .copyright {
   color: #999;
+}
+
+.footer-container {
+  width: 1200px;
 }
