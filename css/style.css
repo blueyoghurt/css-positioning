@@ -28,12 +28,13 @@ position: relative;
 
 .img-float{
   float: left;
+  width: 20%
 }
 
 .container-right {
   margin-left: auto;
   margin-right: auto;
-  width: 45%;
+  width: 50%;
 }
 
 .log_in_button{
