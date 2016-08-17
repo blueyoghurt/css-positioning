@@ -41,17 +41,19 @@ position: relative;
   vertical-align: middle;
   display: inline-block;
   float: right;
-  margin: 1.5em 0 0 0;
   background-color: #3897f0;
   padding: 0 1em;
+  color: white;
 }
 
 .log_in_button img {
-  margin: 0.2em 1em 0.2em 0.5em;
+  padding: 0 5px;
+  padding-top: 8px;
 }
 
 .log_in {
-  margin: -5em 0 0 0;
+  line-height: 25px;
+  vertical-align:super;
 }
 
 .intro {
